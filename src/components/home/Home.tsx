@@ -5,7 +5,7 @@ import './home.css';
 import Home_about from "./Home_about";
 import HomeServices from "./Home_service";
 import ProtectionPlans from "./Home_plan";
-import FaqAccordion from "../accordion/Accordion";
+import FaqAccordion from "../accordionqq/Accordion";
 import Footer from "../footer/Foo";
 
 const HomeMona = () => {

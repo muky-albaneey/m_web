@@ -28,8 +28,7 @@ export default function FaqAccordion() {
   return (
     <div className="faq-container">
       <h6 className="faq-subtitle">FREQUENTLY ASKED QUESTIONS</h6>
-      <h1 className="faq-title">Got Questions?<br />We&#39;ve Got Answers!</h1>
-
+      <h1 className="faq-title">Got Questions?<br />We have Got Answers!</h1>
 
       <div className="faq-wrapper">
         <CustomCollapse label="Q. Enim sodales consequat adipiscing facilisis massa venenatis, non lorem lobortis?">

@@ -7,19 +7,19 @@ const services = [
     title: "Accidental Damage",
     description:
       "Life happens, and so do accidents. Whether it’s a cracked screen, water damage, a shattered back cover, malfunctioning buttons, or a dropped device, we’ve got you covered.",
-    image: "./first.png", // Replace with actual image
+    image: "/first.png", // Replace with actual image
   },
   {
     title: "Guaranteed Repair",
     description:
       "We stand behind every repair with a guarantee. If something goes wrong, we’ll make it right – fast. Your device is in safe hands with Mona Protect.",
-    image: "two.png" // Replace with actual image
+    image: "/two.png" // Replace with actual image
   },
   {
     title: "Theft/Total Loss",
     description:
       "Whether your phone is stolen, lost, or damaged beyond repair, we’ve got your back. Mona Protect helps cover the cost of replacing your device.",
-    image: "./third.png", // Replace with actual image
+    image: "/third.png", // Replace with actual image
   },
 ];
 
