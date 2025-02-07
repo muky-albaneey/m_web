@@ -24,12 +24,12 @@ const HomeMona = () => {
             </p>
            <div id="btnHeroCon">
            <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold p-3 text-base sm:p-2 sm:text-sm">
-  Download App
-</button>
+              Download App
+          </button>
 
-<button className="bg-white hover:bg-blue-700 text-blue-900 p-3 text-base sm:p-2 sm:text-sm">
-  Find an Authorized Partner Near You
-</button>
+          <button className="bg-white hover:bg-blue-700 text-blue-900 p-3 text-base sm:p-2 sm:text-sm">
+            Find an Authorized Partner Near You
+          </button>
 
 
            </div>
