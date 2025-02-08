@@ -1,0 +1,11 @@
+*{
+    font-family: sans-serif;
+}
+#w_desc{
+    width: 60%;
+}
+@media all and (max-width:900px) {
+    #w_desc{
+        width: 100%;
+    }
+}
