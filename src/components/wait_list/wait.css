@@ -5,13 +5,26 @@
     width: 100%;
 }
 #logo_img{
-    height: 20rem;
+    height: 21rem;
+}
+.logo_img_2{
+    height: 20.3rem;
+}
+#img_logo_con{
+margin-bottom: -5.5rem;
 }
 @media all and (max-width:900px) {
     #w_desc{
         width: 100%;
     }
     #logo_img{
-        height: 12rem;
+        height: 11.7rem;
     }
+    .logo_img_2{
+        height: 11.1rem;
+    }
+    #img_logo_con{
+        margin-bottom: -6rem;
+        }
+
 }

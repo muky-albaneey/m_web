@@ -5,7 +5,8 @@ import './wait.css';
 
 export default function WaitList() {
   return (
-    <div className="bg-gradient-to-b from-[#004AAD] to-[#38B6FF] min-h-screen flex flex-col justify-center items-center text-white px-6">
+    <div className="bg-gradient-to-b from-[#004AAD] to-[#38B6FF] min-h-[95vh] flex flex-col justify-center items-center text-white px-6">
+
       {/* Logo & Header */}
       <div className="text-center">
         <section>
@@ -25,8 +26,8 @@ export default function WaitList() {
                     className="m-auto"
                     />
         </section>
-        <h1 className="text-2xl md:text-[56px] font-dm-sans font-extrabold mt-4 text-[#FFFFFF] md:leading-[61.6px]">
-  Reliable Protection <br /> Simplified Repairs
+        <h1 className="text-2xl md:text-[45px] font-dm-sans font-extrabold mt-4 text-[#FFFFFF] md:leading-[61.6px]">
+  Reliable Protection, <br /> Simplified Repairs
 </h1>
 
 
@@ -72,7 +73,7 @@ export default function WaitList() {
 
 
       {/* Mobile App UI Mockup with Animation */}
-      <div className="flex mt-12 space-x-6">
+      <div className="flex mt-12 space-x-6" id="img_logo_con">
      
 
       <motion.div
@@ -101,9 +102,9 @@ export default function WaitList() {
     alt="Mobile App UI"
     width={210}
     height={300}
-    className="rounded-lg shadow-lg"
+    className="rounded-lg shadow-lg logo_img_2"
     // style={{ height:'20rem' }}
-    id="logo_img"
+    // id="logo_img"
   />
 </motion.div>
 
