@@ -21,7 +21,7 @@ export default function ComparisonTable() {
         We go beyond your <br /> Manufacturer Warranty
         </h2>
 
-        
+        <h3>eiieieieieie</h3>
       {/* Table Container */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
