@@ -32,7 +32,7 @@ export default function WaitList() {
 
 
 <p
-  className="text-xs md:text-[18px] font-dm-sans font-normal leading-[16px] md:leading-[19.2px] tracking-normal text-center mt-2 mx-auto max-w-lg"
+  className="text-xs md:text-[18px] font-Dm-Sans font-normal leading-[16px] md:leading-[19.2px] tracking-normal text-center mt-2 mx-auto max-w-lg"
   id="w_desc"
 >
   We offer complete protection for your mobile devices, keeping you
@@ -62,7 +62,7 @@ export default function WaitList() {
       placeholder="Enter Email Address"
       className="flex-1 px-3 py-2 sm:px-4 sm:py-3 text-white bg-transparent outline-none placeholder-white/60 text-xs sm:text-base"
     />
-    <button className="bg-white text-blue-600 px-4 sm:px-6 py-2 sm:py-3 font-semibold text-[10px] sm:text-base">
+    <button className="bg-white text-[#004AAD] px-4 sm:px-6 py-2 sm:py-3 font-semibold text-[10px] sm:text-base">
       Join Our Waitlist
     </button>
   </div>
