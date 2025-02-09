@@ -16,7 +16,7 @@ export default function ComparisonTable() {
         >
         We go beyond your <br /> Manufacturer Warranty
         </motion.h2> */}
-        <h2 className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
+        <h2 className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8"
         >
         We go beyond your <br /> Manufacturer Warranty
         </h2>
