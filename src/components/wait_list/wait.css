@@ -33,12 +33,12 @@ display: flex;
 .image-container {
     position: relative; /* REQUIRED for fill to work */
     width: 100%;
-    height: 70%;
+    height: 85%;
     /* background-color: green; */
     display: flex;
     justify-content: center;
     align-items: end;
-    margin-top: -3rem;
+    margin-top: -4rem;
   }
   
   #logo_img {
@@ -67,7 +67,7 @@ display: flex;
     .image-container {
       
         width: 100%;
-        height: 70%;
+        height: 65%;
         /* background-color: yellow;   */
         display: flex;
         justify-content: center;
@@ -77,7 +77,41 @@ display: flex;
       
     #logo_img {
        
-        height: 87%;
+        height: 82%;
+        
+      }
+  }
+  @media all and (max-width: 430px) { /* Add a space after 'and' */
+    #waitWrapper{
+        width: 100%;
+        height: 60vh;
+        }
+        #one{
+            width: 100%;
+            height: 50%;
+           
+        }
+    #two{
+        width: 100%;
+        height: 70%;
+       
+    }
+
+    .image-container {
+      
+        width: 100%;
+        height: 60%;
+        /* background-color: yellow;   */
+        display: flex;
+        justify-content: center;
+        align-items: end;   
+        margin-top: 0;
+        
+      }
+      
+    #logo_img {
+       
+        height: 100%;
         
       }
   }
