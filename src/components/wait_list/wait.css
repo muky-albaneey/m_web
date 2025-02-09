@@ -46,7 +46,9 @@ display: flex;
     height: 90%;
     /* object-fit: contain;  */
   }
- 
+ #one p{
+    margin-top: 4rem;
+ }
   
   @media all and (max-width: 430px) { /* Add a space after 'and' */
     #waitWrapper{

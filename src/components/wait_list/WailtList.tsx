@@ -19,7 +19,7 @@ export default function WaitList() {
         <h1 className="text-2xl md:text-[40px] font-dm-sans font-semibold mt-4 text-[#FFFFFF] md:leading-[38.6px] text-center">
           Reliable Protection, <br /> Simplified Repairs
         </h1>
-        <p className="text-xs md:text-[14px] font-dm-sans font-normal leading-[10px] md:leading-[19.2px] text-center mt-2 mx-auto max-w-lg text-white">
+        <p className="text-xs md:text-[14px] font-dm-sans font-normal leading-[15px] md:leading-[19.2px] text-center mt-2 mx-auto max-w-lg text-white">
           We offer complete protection for your mobile devices, keeping you
           connected to the things that matter most.
         </p>
