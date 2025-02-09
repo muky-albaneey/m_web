@@ -2,10 +2,16 @@
     font-family: sans-serif;
 }
 #w_desc{
-    width: 60%;
+    width: 100%;
+}
+#logo_img{
+    height: 20rem;
 }
 @media all and (max-width:900px) {
     #w_desc{
         width: 100%;
+    }
+    #logo_img{
+        height: 12rem;
     }
 }

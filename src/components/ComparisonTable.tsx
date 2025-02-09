@@ -12,11 +12,12 @@ export default function ComparisonTable() {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-lg sm:text-3xl font-bold text-center mb-6 sm:mb-8"
-      >
-        We go beyond your <br /> manufacturer&apos;s Warranty
-      </motion.h2>
+        className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
+        >
+        We go beyond your <br /> Manufacturer Warranty
+        </motion.h2>
 
+        
       {/* Table Container */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}

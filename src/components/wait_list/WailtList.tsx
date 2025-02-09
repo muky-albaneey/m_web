@@ -5,23 +5,40 @@ import './wait.css';
 
 export default function WaitList() {
   return (
-    <div className="bg-gradient-to-b from-blue-900 to-blue-500 min-h-screen flex flex-col justify-center items-center text-white px-6">
+    <div className="bg-gradient-to-b from-[#004AAD] to-[#38B6FF] min-h-screen flex flex-col justify-center items-center text-white px-6">
       {/* Logo & Header */}
       <div className="text-center">
-        <Image
-          src="/logo.png"
-          alt="Mona Protect Logo"
-          width={120}
-          height={50}
-          className="m-auto"
-        />
-        <h1 className="text-2xl md:text-5xl font-bold mt-4">
-          Reliable Protection <br /> Simplified Repairs
-        </h1>
-        <p className="text-sm md:text-lg m-auto mt-2" id="w_desc">
-          We offer complete protection for your mobile devices, keeping you
-          connected to the things that matter most.
-        </p>
+        <section>
+                <Image
+                    src="/logo_extra.png"
+                    alt="Mona Protect Logo"
+                    width={30}
+                    height={20}
+                    className="m-auto"
+                    // style={{ width:'78px', height: '50px' }}
+                    />
+                    <Image
+                    src="/logo_1.png"
+                    alt="Mona Protect Logo"
+                    width={120}
+                    height={50}
+                    className="m-auto"
+                    />
+        </section>
+        <h1 className="text-2xl md:text-[56px] font-dm-sans font-extrabold mt-4 text-[#FFFFFF] md:leading-[61.6px]">
+  Reliable Protection <br /> Simplified Repairs
+</h1>
+
+
+<p
+  className="text-xs md:text-[18px] font-dm-sans font-normal leading-[16px] md:leading-[19.2px] tracking-normal text-center mt-2 mx-auto max-w-lg"
+  id="w_desc"
+>
+  We offer complete protection for your mobile devices, keeping you
+  connected to the things that matter most.
+</p>
+
+
       </div>
 
       {/* Email Subscription Box */}
@@ -38,7 +55,7 @@ export default function WaitList() {
   </div>
 </div> */}
 <div className="mt-6 flex items-center justify-center w-full px-4">
-  <div className="flex w-full max-w-2xl bg-white/20 backdrop-blur-md rounded-lg overflow-hidden shadow-lg">
+  <div className="flex w-full max-w-2xl bg-white/20 backdrop-blur-md overflow-hidden shadow-lg">
     <input
       type="email"
       placeholder="Enter Email Address"
@@ -56,72 +73,39 @@ export default function WaitList() {
 
       {/* Mobile App UI Mockup with Animation */}
       <div className="flex mt-12 space-x-6">
+     
+
       <motion.div
-  initial={{ opacity: 0, y: 80 }}
-  animate={{ opacity: 1, y: 10 }}
-  transition={{
-    duration: 3, // Faster animation
-    ease: "easeInOut",
-    repeat: Infinity, // Infinite loop
-    repeatType: "reverse", // Reverses back and forth
-  }}
->
-  <Image
-    src="/phone1.png"
-    alt="Mobile Mockup"
-    width={180}
-    height={360}
-    className="rounded-lg shadow-lg"
-  />
-</motion.div>
-
-<motion.div
-  initial={{ opacity: 0, y: 150 }}
-  animate={{ opacity: 1, y: 20 }}
-  transition={{
-    duration: 3,
-    ease: "easeInOut",
-    repeat: Infinity,
-    repeatType: "reverse",
-    delay: 0.2,
-  }}
->
-  <Image
-    src="/phone2.png"
-    alt="Mobile App UI"
-    width={180}
-    height={360}
-    className="rounded-lg shadow-lg"
-  />
-</motion.div>
-
-      {/* <motion.div
-  initial={{ opacity: 0, y: 80 }}
+  initial={{ opacity: 0, y: 70 }}
   animate={{ opacity: 1, y: 10 }}
   transition={{ duration: 3, ease: "easeOut" }} // Reduced duration for faster animation
 >
   <Image
-    src="/phone2.png"
+    src="/phone1.png"
     alt="Mobile Mockup"
     width={210}
-    height={460}
+    height={560}
     className="rounded-lg shadow-lg"
+    id="logo_img"
+    // style={{ height:'20rem' }}
   />
 </motion.div>
 
 <motion.div
-  initial={{ opacity: 0, y: 150 }}
+  initial={{ opacity: 0, y: 50 }}
   animate={{ opacity: 1, y: 20 }}
   transition={{ duration: 3, ease: "easeOut", delay: 0.2 }} // Reduced duration
 >
   <Image
-    src="/phone1.png"
+    src="/phone2.png"
     alt="Mobile App UI"
     width={210}
-    height={460}
+    height={300}
     className="rounded-lg shadow-lg"
+    // style={{ height:'20rem' }}
+    id="logo_img"
   />
-</motion.div> */}
+</motion.div>
 
       </div>
     </div>
