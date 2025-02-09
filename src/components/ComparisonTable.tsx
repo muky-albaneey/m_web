@@ -8,14 +8,18 @@ export default function ComparisonTable() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[90vh]  bg-gray-100 px-4 sm:px-8">
       {/* Heading */}
-      <motion.h2
+      {/* <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
         >
         We go beyond your <br /> Manufacturer Warranty
-        </motion.h2>
+        </motion.h2> */}
+        <h2 className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
+        >
+        We go beyond your <br /> Manufacturer Warranty
+        </h2>
 
         
       {/* Table Container */}
