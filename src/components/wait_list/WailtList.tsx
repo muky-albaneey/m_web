@@ -13,8 +13,8 @@ export default function WaitList() {
                 <Image
                     src="/logo_extra.png"
                     alt="Mona Protect Logo"
-                    width={30}
-                    height={20}
+                    width={78}
+                    height={50}
                     className="m-auto"
                     // style={{ width:'78px', height: '50px' }}
                     />
