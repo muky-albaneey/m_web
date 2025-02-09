@@ -77,7 +77,41 @@ display: flex;
       
     #logo_img {
        
-        height: 90%;
+        height: 87%;
+        
+      }
+  }
+  @media all and (max-width: 320px) { /* Add a space after 'and' */
+    #waitWrapper{
+        width: 100%;
+        height: 74vh;
+     
+    }
+        #one{
+            width: 100%;
+            height: 50%;
+           
+        }
+    #two{
+        width: 100%;
+        height: 70%;
+       
+    }
+
+    .image-container {
+      
+        width: 100%;
+        height: 70%;
+        /* background-color: yellow;   */
+        display: flex;
+        justify-content: center;
+        align-items: end;   
+        
+      }
+      
+    #logo_img {
+       
+        height: 80%;
         
       }
   }
