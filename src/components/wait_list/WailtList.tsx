@@ -49,7 +49,11 @@ export default function WaitList() {
         </div>
       </div>
 
-      <div className="image-container">
+      <motion.div 
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 20 }}
+        transition={{ duration: 3, ease: "easeOut", delay: 0.2 }} // Reduced duration
+       className="image-container">
       <img 
   src="/group.png" 
   alt="Mobile App UI" 
@@ -58,7 +62,7 @@ export default function WaitList() {
 />
 
 
-</div>
+</motion.div>
 
       </div>
       
