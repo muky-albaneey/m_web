@@ -27,7 +27,7 @@ export default function ComparisonTable() {
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="w-full max-w-4xl bg-white shadow-xl rounded-lg overflow-hidden"
+        className="w-full max-w-4xl bg-white shadow-xl overflow-hidden"
       >
         <table className="w-full border-collapse border border-gray-300">
           {/* Table Head */}
@@ -36,7 +36,7 @@ export default function ComparisonTable() {
               <th className="p-3 sm:p-4 text-left border-r border-gray-300">Compare Features</th>
               <th className="p-3 sm:p-4 text-center border-r border-gray-300">
                 <Image
-                  src="/logo.png" // Replace with actual logo path
+                  src="/mona_blue.png" // Replace with actual logo path
                   alt="Mona Protect"
                   width={100}
                   height={25}

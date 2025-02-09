@@ -5,26 +5,26 @@ import './wait.css';
 
 export default function WaitList() {
   return (
-    <div className="bg-gradient-to-b from-[#021B79] via-[#004AAD] to-[#38B6FF] min-h-[90vh] flex flex-col justify-center items-center text-white px-6">
+    <div className="bg-gradient-to-b from-[#021B79] via-[#004AAD] to-[#38B6FF] min-h-[72vh] lg:min-h-[90vh] flex flex-col justify-center items-center text-white px-6">
 
       {/* Logo & Header */}
       <div className="text-center">
         <section>
                 <Image
-                    src="/logo_extra.png"
+                    src="/l_1.png"
                     alt="Mona Protect Logo"
                     width={78}
                     height={50}
                     className="m-auto"
                     // style={{ width:'78px', height: '50px' }}
                     />
-                    <Image
+                    {/* <Image
                     src="/logo_1.png"
                     alt="Mona Protect Logo"
                     width={120}
                     height={50}
                     className="m-auto"
-                    />
+                    /> */}
         </section>
         <h1 className="text-2xl md:text-[45px] font-dm-sans font-extrabold mt-4 text-[#FFFFFF] md:leading-[61.6px]">
   Reliable Protection, <br /> Simplified Repairs
@@ -100,11 +100,11 @@ export default function WaitList() {
   <Image
     src="/group.png"
     alt="Mobile App UI"
-    width={692}
-    height={445}
+    width={602}
+    height={435}
     className="rounded-lg shadow-lg logo_img_2"
     // style={{ height:'20rem' }}
-    id="logo_img"
+    // id="logo_img"
   />
 </motion.div>
 
