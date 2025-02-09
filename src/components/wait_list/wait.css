@@ -42,7 +42,7 @@ display: flex;
   }
   
   #logo_img {
-    width: 50%;
+    width: 35%;
     height: 90%;
     /* object-fit: contain;  */
   }
