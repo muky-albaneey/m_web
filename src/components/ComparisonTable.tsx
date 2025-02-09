@@ -6,7 +6,7 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa"; // ✅ ❌ Icons
 
 export default function ComparisonTable() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4 sm:px-8">
+    <div className="flex flex-col items-center justify-center min-h-[90vh]  bg-gray-100 px-4 sm:px-8">
       {/* Heading */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -14,7 +14,7 @@ export default function ComparisonTable() {
         transition={{ duration: 1 }}
         className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
         >
-        We go beyond your <br /> Manufacturer &#768;s Warranty
+        We go beyond your <br /> Manufacturer's Warranty
         </motion.h2>
 
         
