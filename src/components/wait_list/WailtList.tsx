@@ -76,7 +76,7 @@ export default function WaitList() {
       <div className="flex mt-12 space-x-6" id="img_logo_con">
      
 
-      <motion.div
+      {/* <motion.div
   initial={{ opacity: 0, y: 70 }}
   animate={{ opacity: 1, y: 10 }}
   transition={{ duration: 3, ease: "easeOut" }} // Reduced duration for faster animation
@@ -90,7 +90,7 @@ export default function WaitList() {
     id="logo_img"
     // style={{ height:'20rem' }}
   />
-</motion.div>
+</motion.div> */}
 
 <motion.div
   initial={{ opacity: 0, y: 50 }}
@@ -98,13 +98,13 @@ export default function WaitList() {
   transition={{ duration: 3, ease: "easeOut", delay: 0.2 }} // Reduced duration
 >
   <Image
-    src="/phone2.png"
+    src="/group.png"
     alt="Mobile App UI"
-    width={210}
-    height={300}
+    width={692}
+    height={445}
     className="rounded-lg shadow-lg logo_img_2"
     // style={{ height:'20rem' }}
-    // id="logo_img"
+    id="logo_img"
   />
 </motion.div>
 
