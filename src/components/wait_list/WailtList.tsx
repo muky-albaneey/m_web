@@ -16,10 +16,10 @@ export default function WaitList() {
             className="m-auto"
           />
         </section>
-        <h1 className="text-2xl md:text-[45px] font-dm-sans font-extrabold mt-4 text-[#FFFFFF] md:leading-[61.6px] text-center">
+        <h1 className="text-2xl md:text-[40px] font-dm-sans font-semibold mt-4 text-[#FFFFFF] md:leading-[38.6px] text-center">
           Reliable Protection, <br /> Simplified Repairs
         </h1>
-        <p className="text-xs md:text-[18px] font-dm-sans font-normal leading-[16px] md:leading-[19.2px] text-center mt-2 mx-auto max-w-lg text-white">
+        <p className="text-xs md:text-[14px] font-dm-sans font-normal leading-[10px] md:leading-[19.2px] text-center mt-2 mx-auto max-w-lg text-white">
           We offer complete protection for your mobile devices, keeping you
           connected to the things that matter most.
         </p>
@@ -38,18 +38,18 @@ export default function WaitList() {
           </div>
         </div>
         <motion.div 
-  initial={{ opacity: 0, y: 30 }} // Reduce initial Y value
-  animate={{ opacity: 1, y: 10 }} // Ensure it aligns properly
-  transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
-  className="image-container"
->
-  <img 
-    src="/group.png" 
-    alt="Mobile App UI" 
-    className="rounded-lg shadow-lg" 
-    id="logo_img"
-  />
-</motion.div>
+            initial={{ opacity: 0, y: 30 }} // Reduce initial Y value
+            animate={{ opacity: 1, y: 10 }} // Ensure it aligns properly
+            transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
+            className="image-container"
+          >
+            <img 
+              src="/group.png" 
+              alt="Mobile App UI" 
+              className="rounded-lg shadow-lg" 
+              id="logo_img"
+            />
+      </motion.div>
 
       </div>
     </div>
