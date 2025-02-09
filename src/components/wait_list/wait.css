@@ -51,30 +51,17 @@ display: flex;
     #waitWrapper{
         width: 100%;
         height: 60vh;
-        /* display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; */
-        /* background: #000; */
+     
         }
         #one{
             width: 100%;
             height: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        
-            /* background-color: red; */
+           
         }
     #two{
         width: 100%;
         height: 70%;
-        /* display: flex;
-        justify-content: space-around   ;
-        align-items: center;
-        flex-direction: column; */
-        background-color: red;
+       
     }
 
     .image-container {
@@ -91,6 +78,6 @@ display: flex;
     #logo_img {
        
         height: 90%;
-        /* object-fit: contain;  */
+        
       }
   }
