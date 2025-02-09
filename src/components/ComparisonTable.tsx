@@ -6,7 +6,7 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa"; // ✅ ❌ Icons
 
 export default function ComparisonTable() {
   return (
-    <div style={{ width:'100%', display:'flex',flexDirection:'column', justifyContent:'center', alignItems:'center',padding:'2rem', background:'#F5F6FA' }}>
+    <div style={{ }}>
       <h2>ewjjeej</h2>
         <h2 
         className="text-base md:text-[46px] font-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8 text-black-700">
