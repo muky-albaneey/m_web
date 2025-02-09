@@ -9,21 +9,24 @@ export default function ComparisonTable() {
     <div style={{ background:'#F5F6FA'}}>
      
         <h2 
-        className="text-base md:text-[46px] font-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8 text-black-700">
+
+        className="text-base md:text-[46px] font-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8 text-black-700"
+        style={{ color:'black' }}>
 
       We go beyond your <br /> Manufacturer Warranty
       </h2>
 
     <div className="flex flex-col items-center justify-center min-h-[80vh]  bg-[#F5F6FA] ">
       {/* Heading */}
-      {/* <motion.h2
+      <motion.h2
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="text-sm md:text-[46px] font-dm-sans font-extrabold leading-[20px] md:leading-[61.6px] tracking-[-3%] text-center mb-4 md:mb-8"
+        style={{ color:'black' }}
         >
         We go beyond your <br /> Manufacturer Warranty
-        </motion.h2> */}
+        </motion.h2>
       
 
        
