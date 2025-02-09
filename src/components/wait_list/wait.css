@@ -18,13 +18,28 @@ margin-bottom: -8.3rem;
         width: 100%;
     }
     #logo_img{
-        height: 15.7rem;
+        height: 15rem;
     }
     .logo_img_2{
-        height: 15.1rem;
+        height: 15rem;
     }
     #img_logo_con{
-        margin-bottom: -7.7rem;
+        margin-bottom: -7.2rem;
+        }
+
+}
+@media all and (max-width:400px) {
+    #w_desc{
+        width: 100%;
+    }
+    #logo_img{
+        height: 13.7rem;
+    }
+    .logo_img_2{
+        height: 13.1rem;
+    }
+    #img_logo_con{
+        margin-bottom: -5.7rem;
         }
 
 }
