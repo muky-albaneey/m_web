@@ -5,7 +5,7 @@ import './wait.css';
 
 export default function WaitList() {
   return (
-    <div className="bg-gradient-to-b from-[#004AAD] to-[#38B6FF] min-h-[90vh] flex flex-col justify-center items-center text-white px-6">
+    <div className="bg-gradient-to-b from-[#021B79] via-[#004AAD] to-[#38B6FF] min-h-[90vh] flex flex-col justify-center items-center text-white px-6">
 
       {/* Logo & Header */}
       <div className="text-center">
