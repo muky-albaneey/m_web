@@ -6,7 +6,13 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa"; // ✅ ❌ Icons
 
 export default function ComparisonTable() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[90vh]  bg-gray-100 px-4 sm:px-8">
+    <div style={{ width:'100%' }}>
+        <h2 className="text-base md:text-[46px] font-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8">
+
+We go beyond your <br /> Manufacturer Warranty
+</h2>
+<h3>eiieieieieie</h3>
+    <div className="flex flex-col items-center justify-center min-h-[80vh]  bg-gray-100 px-4 sm:px-8">
       {/* Heading */}
       {/* <motion.h2
         initial={{ opacity: 0, y: -20 }}
@@ -16,12 +22,9 @@ export default function ComparisonTable() {
         >
         We go beyond your <br /> Manufacturer Warranty
         </motion.h2> */}
-        <h2 className="text-base md:text-[46px] font-sans font-extrabold leading-[20px] md:leading-[61.6px] text-center mb-4 md:mb-8">
+      
 
-        We go beyond your <br /> Manufacturer Warranty
-        </h2>
-
-        <h3>eiieieieieie</h3>
+       
       {/* Table Container */}
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}
@@ -84,6 +87,7 @@ export default function ComparisonTable() {
       >
         Copyright © 2025 Monaprotect. All rights reserved.
       </motion.footer>
+    </div>
     </div>
   );
 }
