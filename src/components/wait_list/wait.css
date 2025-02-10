@@ -56,7 +56,9 @@ display: flex;
   @media all and (max-width: 430px) { /* Add a space after 'and' */
     #waitWrapper{
         width: 100%;
-        height: 60vh;
+        height: 55vh;
+        padding-top: 4rem;
+        padding: 0 1rem;
         }
         #one{
             width: 100%;
@@ -72,25 +74,72 @@ display: flex;
     .image-container {
       
         width: 100%;
-        height: 55%;
+        height: 65%;
         /* background-color: yellow;   */
         display: flex;
         justify-content: center;
         align-items: end;   
         margin-top: 1px;
+        padding-top: .6rem;
         
       }
       
     #logo_img {
-       
+       width: 70%;
         height: 100%;
-        
+        position: relative;
+        /* top: -.4rem; */
       }
+      #join__now{
+        position: relative;
+        top: -2rem;
+        /* background: 
+        ; */
+      }
+      #decript{
+        /* margin-top: -10rem; */
+        /* background-color: yellow; */
+        position: relative;
+        top: -3rem;
+      }
+  }
+  /* @media all and (max-width: 415px) { 
+    #logo_img {
+        width: 70%;
+         height: 100%;
+         position: relative;
+         top: -1.8rem;
+       }
+  } */
+  @media all and (max-width: 414px) { 
+    #logo_img {
+        width: 90%;
+         height: 100%;
+         position: relative;
+         top: -1.8rem;
+       }
+  }
+  @media all and (max-width: 412px) { 
+    #logo_img {
+        width: 90%;
+         height: 100%;
+         position: relative;
+         top: -2rem;
+       }
+  }
+  @media all and (max-width: 393px) { 
+    #logo_img {
+        width: 93%;
+         height: 100%;
+         position: relative;
+         top: -2.2rem;
+       }
   }
   @media all and (max-width: 390px) { /* Add a space after 'and' */
     #waitWrapper{
         width: 100%;
-        height: 60vh;
+        height: 55vh;
+        padding-top: 3rem;
      
         }
         #one{
@@ -120,18 +169,34 @@ display: flex;
       }
       
     #logo_img {
-       
-        height: 75%;
-        
+       width: 70%;
+        height: 100%;
+        position: relative;
+        top: -.5rem;
+      }
+      #join__now{
+        position: relative;
+        /* top: 4rem; */
+        /* background: 
+        ; */
+      }
+      #decript{
+        /* margin-top: -10rem; */
+        /* background-color: yellow; */
+        position: relative;
+        top: -3.5rem;
+
       }
   }
- 
+
+
+
 
   @media all and (max-width: 375px) {
     #waitWrapper{
         width: 100%;
         height: 60vh;
-     
+     padding: 0 1rem;
     }
         #one{
             width: 100%;
@@ -165,20 +230,26 @@ display: flex;
         height: 90%;
         
       }
+
+ 
 }
+
 @media all and (max-width: 360px) { /* Add a space after 'and' */
     #waitWrapper{
         width: 100%;
         height: 64vh;
-     
+     padding-top: 1rem;
     }
         #one{
             width: 100%;
             height: 40%;
            margin-top: 1.5rem;
+           margin-bottom: 2rem;
         }
         #join_now{
             width: 100%;
+            /* position: relative; */
+            /* top: 100rem; */
             margin-top: 4rem;
         }
     #two{
@@ -201,9 +272,39 @@ display: flex;
       
     #logo_img {
        
-        height: 83%;
+        height: 100%;
+        position: relative;
+       top: -.6rem;
         
       }
+      #decript{
+        /* margin-top: -10rem; */
+        /* background-color: yellow; */
+        position: relative;
+        top: -3.5rem;
+      }
+  }
+@media all and (max-width: 353px) { 
+    #waitWrapper{
+        width: 100%;
+        height: 60vh;
+     padding-top: 2rem;
+    }
+    .image-container {
+        height: 70%;
+        /* background-color: red;   */
+        justify-content: end;
+        align-items: flex-end;
+      }
+    #logo_img {
+        width: 90%;
+         height: 100%;
+         position: relative;
+         top: 0.1rem;
+         margin-bottom: .3rem;
+         /* left: 50%; */
+         right: 1rem;
+       }
   }
 @media all and (max-width: 320px) { /* Add a space after 'and' */
     #waitWrapper{
@@ -246,4 +347,26 @@ display: flex;
         height: 86%;
         
       }
+      #decript{
+        /* margin-top: -10rem; */
+        /* background-color: yellow; */
+        position: relative;
+        top: -3.7rem;
+      }
+     
   }
+  @media screen and (max-width: 320px) and (max-height: 533px) {
+    #join__now{
+        position: relative;
+        top: 1.7rem;
+    }
+    #logo_img {
+       
+        height: 96%;
+        position: relative;
+        top: .7rem;
+        left: .1rem;
+        
+      }
+  }
+  
