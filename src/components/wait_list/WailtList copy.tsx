@@ -31,7 +31,7 @@ export default function WaitList() {
           Reliable Protection, <br /> Simplified Repairs
         </h1>
         <p
-          className="text-xs md:text-[18px] font-Dm-Sans font-normal leading-[16px] md:leading-[19.2px] tracking-normal text-center mt-2 mx-auto max-w-lg"
+          className="text-xs md:text-[18px] font-normal leading-[16px] md:leading-[19.2px] tracking-normal text-center mt-2 mx-auto max-w-lg"
           id="w_desc"
         >
           We offer complete protection for your mobile devices, keeping you
