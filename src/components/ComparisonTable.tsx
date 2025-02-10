@@ -82,7 +82,7 @@ export default function ComparisonTable() {
         transition={{ duration: 1, delay: 2 }}
         className="text-center text-gray-600 text-xs sm:text-sm mt-6"
       >
-        Copyright © 2025 Monaprotect. All rights reserved.
+        Copyright © 2025 Mona Tech LTD. All rights reserved.
       </motion.footer>
     </div>
    
