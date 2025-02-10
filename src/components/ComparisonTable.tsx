@@ -15,7 +15,7 @@ export default function ComparisonTable() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
         className="text-sm md:text-[30px] font-dm-sans font-semibold leading-[15px] md:leading-[27.6px] tracking-[-3%] text-center mb-4 md:mb-8"
-        style={{ color:'black' }}
+        style={{ color:'black',fontFamily:'Verdana, Geneva, Tahoma, sans-serif' }}
         >
         We go beyond your <br /> Manufacturer Warranty
         </motion.h2>
