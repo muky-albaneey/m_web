@@ -6,8 +6,8 @@ import { FaCheckCircle, FaTimesCircle } from "react-icons/fa"; // ✅ ❌ Icons
 
 export default function ComparisonTable() {
   return (
-   
-
+   <div style={{ backgroundColor:'#F5F6FA' }}>
+    
     <div className="flex flex-col items-center justify-center min-h-[60vh] sm:min-h-[80vh] bg-[#F5F6FA] px-4">
       {/* Heading */}
       <motion.h2
@@ -32,7 +32,7 @@ export default function ComparisonTable() {
         <table className="w-full border-collapse border border-gray-300">
           {/* Table Head */}
           <thead>
-            <tr className="bg-gray-50 text-gray-700 text-xs sm:text-lg font-semibold border-b border-gray-300">
+            <tr className="bg-gray-50 text-gray-700 text-xs sm:text-lg font-semibold border-b border-gray-300 bg-[#FFFFFF]">
               <th className="p-3 sm:p-4 text-left border-r border-gray-300">Compare Features</th>
               <th className="p-3 sm:p-4 text-center border-r border-gray-300">
                 <Image
@@ -75,16 +75,18 @@ export default function ComparisonTable() {
         </table>
       </motion.div>
 
-      {/* Footer */}
-      <motion.footer
+
+
+    </div>
+      {/* Footer - Now Outside the Div */}
+    <motion.footer
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 2 }}
-        className="text-center text-gray-600 text-xs sm:text-sm mt-6"
+        className="text-center text-gray-600 text-xs sm:text-sm mt-6 bg-[#FFFFFF] w-full py-6  shadow-md"
       >
         Copyright © 2025 Mona Tech LTD. All rights reserved.
       </motion.footer>
     </div>
-   
   );
 }
