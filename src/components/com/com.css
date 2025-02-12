@@ -45,16 +45,19 @@ text-align: center;
         /* bg:red */
     }
     #com_1{
-        width: 70%;
-        height: 16%;
+        width: 90%;
+        height: 10%;
         /* background: red;     */
-        align-items: start;
+        align-items: center;
     }
     #com_1 h2{
         color: #212121;
         line-height: 22.6px;
         font-size: 1rem;
-        /* background: #000; */
+        /* background: red; */
+    }
+    #com_2{
+        height: 80%;
     }
     
 }
