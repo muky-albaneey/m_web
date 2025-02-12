@@ -39,6 +39,12 @@
    height: 130vh; 
   }
 }
+@media all and (max-width: 375px) {
+  #mother_con{
+    width: 100%;
+   height: 195vh; 
+  }
+}
 @media all and (max-width: 360px) {
   #mother_con{
     width: 100%;
