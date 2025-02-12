@@ -17,7 +17,7 @@ display: flex;
 #com_1 h2{
     color: #212121;
     
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     /* background: #000; */
     /* font-family: DM Sans; */
 font-weight: 800;
@@ -46,11 +46,13 @@ text-align: center;
     }
     #com_1{
         width: 70%;
-        /* height: 6%; */
+        height: 16%;
+        /* background: red;     */
+        align-items: start;
     }
     #com_1 h2{
         color: #212121;
-        
+        line-height: 22.6px;
         font-size: 1rem;
         /* background: #000; */
     }

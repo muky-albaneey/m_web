@@ -38,12 +38,21 @@ align-items: center;
 }
 #input input{
     width: 35%;
-    height: 5vh;
-    border: 1px solid #FFFFFF33
+    height: 6vh;
+    border: 1px solid #FFFFFF33;
+    padding-left: 1.2rem;
 }
 #input button{
     width: 15%;
-    height: 5vh;
+    height: 6vh;
+    /* font-family: DM Sans; */
+font-weight: 600;
+font-size: 16px;
+line-height: 16px;
+letter-spacing: 0px;
+text-align: center;
+
+
 }
 #decript_p{
     width: 34%;
